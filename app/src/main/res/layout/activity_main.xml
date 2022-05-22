@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,25 +43,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="B" />
+            android:text="B"
+            android:onClick="intent_b"/>
         <Button
             android:id="@+id/btn_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="c" />
+            android:text="c"
+            android:onClick="intent_c"/>
         <Button
             android:id="@+id/btn_d"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="D" />
+            android:text="D"
+            android:onClick="intent_d"/>
         <Button
             android:id="@+id/btn_e"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="E" />
+            android:text="E"
+            android:onClick="intent_e"/>
     </LinearLayout>
 
     <LinearLayout
@@ -74,31 +79,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="F" />
+            android:text="F"
+            android:onClick="intent_f"/>
         <Button
             android:id="@+id/btn_g"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="G" />
+            android:text="G"
+            android:onClick="intent_g"/>
         <Button
             android:id="@+id/btn_h"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H" />
+            android:text="H"
+            android:onClick="intent_h"/>
         <Button
             android:id="@+id/btn_i"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="I" />
+            android:text="I"
+            android:onClick="intent_i"/>
         <Button
             android:id="@+id/btn_j"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="J" />
+            android:text="J"
+            android:onClick="intent_j"/>
     </LinearLayout>
 
     <LinearLayout
@@ -112,31 +122,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="K" />
+            android:text="K"
+            android:onClick="intent_k"/>
         <Button
             android:id="@+id/btn_l"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="L" />
+            android:text="L"
+            android:onClick="intent_l"/>
         <Button
             android:id="@+id/btn_m"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="M" />
+            android:text="M"
+            android:onClick="intent_m"/>
         <Button
             android:id="@+id/btn_n"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="N" />
+            android:text="N"
+            android:onClick="intent_n"/>
         <Button
             android:id="@+id/btn_o"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="O" />
+            android:text="O"
+            android:onClick="intent_o"/>
     </LinearLayout>
 
     <LinearLayout
@@ -150,31 +165,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="P" />
+            android:text="P"
+            android:onClick="intent_p"/>
         <Button
             android:id="@+id/btn_q"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Q" />
+            android:text="Q"
+            android:onClick="intent_q"/>
         <Button
             android:id="@+id/btn_r"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="R" />
+            android:text="R"
+            android:onClick="intent_r"/>
         <Button
             android:id="@+id/btn_s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="S" />
+            android:text="S"
+            android:onClick="intent_s"/>
         <Button
             android:id="@+id/btn_t"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="T" />
+            android:text="T"
+            android:onClick="intent_t"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -187,31 +207,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="U" />
+            android:text="U"
+            android:onClick="intent_u"/>
         <Button
             android:id="@+id/btn_v"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="V" />
+            android:text="V"
+            android:onClick="intent_v"/>
         <Button
             android:id="@+id/btn_w"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="W" />
+            android:text="W"
+            android:onClick="intent_w"/>
         <Button
             android:id="@+id/btn_x"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="x" />
+            android:text="x"
+            android:onClick="intent_x"/>
         <Button
             android:id="@+id/btn_y"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Y" />
+            android:text="Y"
+            android:onClick="intent_y"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -224,7 +249,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginLeft="160sp"
-            android:text="Z" />
+            android:text="Z"
+            android:onClick="intent_z"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -236,7 +262,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Start Quiz" />
+            android:text="Start Quiz"
+            android:onClick="intent_startQuiz"/>
     </LinearLayout>
 
 

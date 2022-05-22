@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,activity_t.class);
         startActivity(intent);
     }
-  /*  public void intent_u(View view) {
+   public void intent_u(View view) {
         Intent intent = new Intent(this,activity_u.class);
         startActivity(intent);
     }
@@ -121,5 +121,5 @@ public class MainActivity extends AppCompatActivity {
     public void intent_startQuiz(View view) {
         Intent intent = new Intent(this,activity_startQuiz.class);
         startActivity(intent);
-    }*/
+    }
 }
