@@ -37,7 +37,7 @@
     <ImageView
         android:layout_width="426dp"
         android:layout_height="457dp"
-        android:background="@drawable/Objects_Starting_With_Alphabet_F"
+        android:background="@drawable/f"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
