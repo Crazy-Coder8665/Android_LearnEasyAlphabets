@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".activity_startQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".activity_z"
+            android:exported="false" />
+        <activity
+            android:name=".activity_y"
+            android:exported="false" />
+        <activity
+            android:name=".activity_x"
+            android:exported="false" />
+        <activity
+            android:name=".activity_w"
+            android:exported="false" />
+        <activity
+            android:name=".activity_v"
+            android:exported="false" />
+        <activity
+            android:name=".activity_u"
+            android:exported="false" />
+        <activity
             android:name=".activity_d"
             android:exported="false" />
         <activity

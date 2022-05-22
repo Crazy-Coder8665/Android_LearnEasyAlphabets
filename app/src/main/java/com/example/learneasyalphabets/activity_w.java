@@ -6,19 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class activity_q extends AppCompatActivity {
+public class activity_w extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_q);
+        setContentView(R.layout.activity_w);
     }
     public void next(View view) {
-        Intent intent = new Intent(this,activity_r.class);
+        Intent intent = new Intent(this,activity_x.class);
         startActivity(intent);
     }
     public void prev(View view) {
-        Intent intent = new Intent(this,activity_p.class);
+        Intent intent = new Intent(this,activity_v.class);
         startActivity(intent);
     }
 }
