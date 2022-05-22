@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnEasyAlphabets">
         <activity
+            android:name=".activity_l"
+            android:exported="false" />
+        <activity
+            android:name=".activity_k"
+            android:exported="false" />
+        <activity
+            android:name=".activity_j"
+            android:exported="false" />
+        <activity
+            android:name=".activity_i"
+            android:exported="false" />
+        <activity
             android:name=".activity_h"
             android:exported="false" />
         <activity
